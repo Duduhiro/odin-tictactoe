@@ -15,6 +15,11 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+    font-size: 36px;
+    color: white;
+}
+
 .game {
     background-color: #55585b;
     width: 600px;
@@ -55,4 +60,16 @@ h1 {
 #c3, #c5 {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result button {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 16px 32px 16px 32px;
 }
