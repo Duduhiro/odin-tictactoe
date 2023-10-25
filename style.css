@@ -1,0 +1,58 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #0c1015;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game {
+    background-color: #55585b;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 128px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cell:hover {
+    background-color: #66696b;
+    cursor: pointer;
+}
+
+#c4 {
+    border: 1px solid white;
+}
+
+#c1, #c7 {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+#c3, #c5 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
