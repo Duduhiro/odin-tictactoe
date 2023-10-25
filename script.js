@@ -24,10 +24,12 @@ const putSignal = (div) => {
     const divValue = div.getAttribute("value");
     if (positions[divValue] === 0) {
         if (signal === 0) {
+            div.style.color = "#f3da98";
             div.innerHTML = "X";
             signal = 1;
             positions[divValue] = 1;
         } else {
+            div.style.color = "#63a980";
             div.innerHTML = "O";
             signal = 0;
             positions[divValue] = 2;
